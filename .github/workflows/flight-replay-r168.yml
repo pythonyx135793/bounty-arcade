@@ -1,0 +1,58 @@
+name: Flight replay standard exact-source acceptance
+on:
+  push:
+    branches: [codex/verify-flight-replay-r168]
+    paths: [.github/workflows/flight-replay-r168.yml]
+permissions:
+  contents: read
+jobs:
+  acceptance:
+    if: >-
+      github.repository == 'pythonyx135793/bounty-arcade' &&
+      github.event.repository.private == false &&
+      github.ref == 'refs/heads/codex/verify-flight-replay-r168'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      CI: 'true'
+      CHECKS: bounties/flight-replay
+      EXPECTED_SOURCE: 8812ecc9e06ff920aeb3c29d0f2c8555a0dc6e75
+    steps:
+      - name: Check out exact candidate
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: 8812ecc9e06ff920aeb3c29d0f2c8555a0dc6e75
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify candidate source
+        shell: bash
+        run: |
+          test "$(git rev-parse HEAD)" = "$EXPECTED_SOURCE"
+          git diff --exit-code HEAD
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.23.3'
+          cache: npm
+      - name: Copy pinned public checker fixtures
+        shell: bash
+        run: |
+          git fetch --no-tags https://github.com/amiller/bounty-arcade.git 82323836a672b799ac8f9f74265498f97438cd02
+          if test -d bounties; then
+            git diff --exit-code 82323836a672b799ac8f9f74265498f97438cd02 -- bounties
+          else
+            git archive 82323836a672b799ac8f9f74265498f97438cd02 bounties | tar -x
+          fi
+      - name: Install locked test dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Prepare isolated Chromium
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Full standard logic and browser acceptance
+        run: npm test
+      - name: Verify unchanged candidate source
+        shell: bash
+        run: |
+          test "$(git rev-parse HEAD)" = "$EXPECTED_SOURCE"
+          git diff --exit-code HEAD
+          unexpected=$(git ls-files --others --exclude-standard | sed '/^bounties\//d')
+          test -z "$unexpected"
