@@ -14,7 +14,7 @@ jobs:
       matrix:
         include:
           - task: flight-wind
-            source: 4fe6e03bae33733065d7e7f519bcbf46bf6dfb63
+            source: 2e67402b47fab9ba5f49ad96aa47354a57888850
             checks: bounties/flight-wind
     env:
       CI: 'true'
@@ -47,7 +47,7 @@ jobs:
             git archive 82323836a672b799ac8f9f74265498f97438cd02 bounties | tar -x
           fi
       - name: Install locked test dependencies
-        run: npm ci --ignore-scripts
+        run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Prepare isolated Chromium
         run: npx --no-install playwright install --with-deps chromium
       - name: Run full logic and browser acceptance
