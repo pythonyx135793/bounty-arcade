@@ -1,7 +1,7 @@
-name: Flight wind exact-source acceptance
+name: Puzzle progress exact-source acceptance
 on:
   push:
-    branches: [codex/verify-arcade-wind-r163]
+    branches: [codex/verify-puzzle-progress-r163]
 permissions:
   contents: read
 jobs:
@@ -13,9 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - task: flight-wind
-            source: 2e67402b47fab9ba5f49ad96aa47354a57888850
-            checks: bounties/flight-wind
+          - task: puzzle-progress
+            source: e09a4d503ff0cdc1c8578bb5048310c8a0796e2c
+            checks: bounties/puzzle-progress
     env:
       CI: 'true'
       CHECKS: ${{ matrix.checks }}
