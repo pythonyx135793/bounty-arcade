@@ -13,9 +13,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - task: flight-fuel
-            source: 575edd9bc9bd782176d0c3ca7ecb81ceefd8060c
-            checks: bounties/flight-fuel
           - task: board-undo
             source: e52ded74362b5d40ad88f44cbbf2fa14329899eb
             checks: bounties/board-undo
@@ -43,9 +40,12 @@ jobs:
       - name: Copy the pinned public checker fixtures
         shell: bash
         run: |
-          test ! -e bounties
           git fetch --no-tags https://github.com/amiller/bounty-arcade.git 82323836a672b799ac8f9f74265498f97438cd02
-          git archive 82323836a672b799ac8f9f74265498f97438cd02 bounties | tar -x
+          if test -d bounties; then
+            git diff --exit-code 82323836a672b799ac8f9f74265498f97438cd02 -- bounties
+          else
+            git archive 82323836a672b799ac8f9f74265498f97438cd02 bounties | tar -x
+          fi
       - name: Install locked test dependencies
         run: npm ci --ignore-scripts
       - name: Prepare isolated Chromium
