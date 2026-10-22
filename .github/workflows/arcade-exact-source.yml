@@ -1,7 +1,7 @@
-name: Arcade exact-source acceptance
+name: Flight wind exact-source acceptance
 on:
   push:
-    branches: [codex/verify-arcade-acceptance-r162]
+    branches: [codex/verify-arcade-wind-r163]
 permissions:
   contents: read
 jobs:
@@ -13,9 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - task: board-undo
-            source: e52ded74362b5d40ad88f44cbbf2fa14329899eb
-            checks: bounties/board-undo
+          - task: flight-wind
+            source: 4fe6e03bae33733065d7e7f519bcbf46bf6dfb63
+            checks: bounties/flight-wind
     env:
       CI: 'true'
       CHECKS: ${{ matrix.checks }}
