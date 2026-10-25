@@ -1,0 +1,19 @@
+name: Arcade Linux stock diagnostic R1294
+on:
+  push:
+    branches:
+      - codex/proof-arcade-r1294
+permissions:
+  contents: read
+jobs:
+  diagnostic:
+    if: github.repository == 'pythonyx135793/bounty-arcade' && github.ref == 'refs/heads/codex/proof-arcade-r1294' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Run each immutable stock tree once
+        run: python3 proof/arcade-r1294/run-proof.py
