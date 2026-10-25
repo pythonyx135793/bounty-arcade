@@ -1,0 +1,28 @@
+name: Arcade supplied judge-2 replay
+on:
+  push:
+    branches: [codex/proof-arcade-r1599]
+permissions:
+  contents: read
+jobs:
+  replay:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Clean proof source
+        run: |
+          test "${{ github.run_attempt }}" = 1
+          test "$(git rev-parse HEAD)" = "${{ github.sha }}"
+          test -z "$(git status --porcelain --untracked-files=all)"
+      - name: Replay supplied tests against exact baseline and frozen candidate
+        run: python3 proof/arcade-r1599/run-proof.py
+      - name: Final proof-source guard
+        if: always()
+        run: |
+          test "$(git rev-parse HEAD)" = "${{ github.sha }}"
+          git diff --exit-code
+          test -z "$(git status --porcelain --untracked-files=all)"

@@ -1,0 +1,722 @@
+{
+  "base": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+  "candidate": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+  "checker": "82323836a672b799ac8f9f74265498f97438cd02",
+  "files": [
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": ".dockerignore",
+      "git_blob": "494161b77763739d35acda9a1573cf8a643837ea",
+      "sha256": "5dfaa644c65020405a1e37d5c209e328e1c07d90887973487ea23d78ed452684",
+      "bytes": 49
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": ".github/ISSUE_TEMPLATE/bounty.md",
+      "git_blob": "edff9a5ae23cd4007854a7b7bf445ccb597aa2f6",
+      "sha256": "9cf9e9af030e7fc8b95d19a6fb52944643b64abdbb66cf3b40a6ec41bf1f0af8",
+      "bytes": 279
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": ".gitignore",
+      "git_blob": "ddb8e9427f259246eb3652acb0c12113f332e681",
+      "sha256": "058f05121a667be3ea77e91b949e99b163b227357a657d723db474eecda10b44",
+      "bytes": 66
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "Dockerfile",
+      "git_blob": "d064b6d0e45ee7dcfcf9da5f4b14a53a49609cf4",
+      "sha256": "71ece3562a5366e9a3b6b055bec8c62a6157db82e0ba44415b6b1cb289aaf44e",
+      "bytes": 160
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "README.md",
+      "git_blob": "af980fd7f2947c2d02a5571ec1c77065a36df621",
+      "sha256": "20869fe9a4fa4c0af80bc172599334494c7d3b4ad39b9b6fe3119fd95b7ed289",
+      "bytes": 1096
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/board/BOUNTIES.md",
+      "git_blob": "c4fc1306cf3192af3c61100aad0ae84e255640ba",
+      "sha256": "e1b4efb48544de71b0c62b630badb588cd7f7b609e2211ae43de42a18bb678da",
+      "bytes": 4068
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/board/index.html",
+      "git_blob": "b847b8103bb45fa3cb19042a78e7e1223032a1fb",
+      "sha256": "704d5959a050093980916c499710bdf8e51a1db9fe9f363c3349461efcb50f0d",
+      "bytes": 2764
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/board/logic.js",
+      "git_blob": "78c08277bb455185535ec9b1ded5bb4b74f0b7c2",
+      "sha256": "86931077db5856b90b1b2d6857a34691a2cdb6556ee4ed3313dbf3940fc8502e",
+      "bytes": 3189
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/board/test/app.spec.js",
+      "git_blob": "af078adc65033f6b42cd13840d6ade8ebf368432",
+      "sha256": "31a98d86ee00418520c1cca966b2751b9f7c0e1220247cdc5079f18c66e993e3",
+      "bytes": 1393
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/board/test/logic.test.js",
+      "git_blob": "be0fc8e1db49d10a6f5bd0d03cb17fe41e48b02c",
+      "sha256": "a5aca81bfdc05bbd594e77902a8ea253ddbc49b4b0c93e3d9c683aeb09245ad6",
+      "bytes": 5906
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/board/ui.js",
+      "git_blob": "31931d89cbc010b7321781854d97ec3777d0b849",
+      "sha256": "747e62a8946010799e08f33c76e1e8ccab0675e9753c98041afebd5ea379fa1b",
+      "bytes": 4561
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/flight/BOUNTIES.md",
+      "git_blob": "be3d421017d0f2607985afb93415df943399f62e",
+      "sha256": "ebe7f4bb9fe2bef9cd04efdaffe95574c37a9dbf0262700c3f582c9d292078f9",
+      "bytes": 3632
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/flight/index.html",
+      "git_blob": "1c8a713e7b7f670e0e09b6b0aa5d9ba758293ff3",
+      "sha256": "a9f5fabc286a611d8a2961cfaa61a42bfb648aad9545e0a39decaedef2604c86",
+      "bytes": 2859
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/flight/logic.js",
+      "git_blob": "ade7ae8216d786dd32421631bca790052fc29695",
+      "sha256": "0eb506c51d5bd040ec8e0f9e20d2818a739047b1c48d90ed38536c4ced1ceec9",
+      "bytes": 3911
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/flight/test/app.spec.js",
+      "git_blob": "8d4e2bea42ced03929c49b9b5bfd9486b683eb7f",
+      "sha256": "f6e59d2ba60f1c180fe0c24c73c05bef7f8335e4d026de3f89c1449aa44200b2",
+      "bytes": 1178
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/flight/test/logic.test.js",
+      "git_blob": "d0ad8a6b3d38ab139b0b5148aaf2645dee664e2d",
+      "sha256": "e673d7d16ba1b46f1e6db33337ca9adde0303884220c9493991b0868be66424f",
+      "bytes": 4999
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/flight/ui.js",
+      "git_blob": "13eddd13ca5b5ff76b10892f293945df97adcba7",
+      "sha256": "c3656adbd27a047e2958f7f7396c82663ab4bc78387b35ce86e4846db455935d",
+      "bytes": 4518
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/puzzle/BOUNTIES.md",
+      "git_blob": "c7bc2d5223da92b4749b07cc3a1b1d4a1ad44c7e",
+      "sha256": "579fc3902baf0c51460cc43bb832697d382f5e1faf422947fa2b308692c4c73b",
+      "bytes": 3847
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/puzzle/index.html",
+      "git_blob": "636c2ed635614670515730bb040d4ce50a5279a8",
+      "sha256": "348db6e0580265cdbdfb0384c2c01c72ffe59e6a7bbba10d10795c6c2799a925",
+      "bytes": 3158
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/puzzle/levels.json",
+      "git_blob": "4772e02e3228e66e9e434f88e71e959a58bce468",
+      "sha256": "9b6a40b204214039527eba5207a0ddb8ab6e67e213790637e217aa6f935637bb",
+      "bytes": 766
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/puzzle/logic.js",
+      "git_blob": "1fdd5d27d5b86c38cf6e24527868862805b6fa8d",
+      "sha256": "8f9ace43bf581efd5b26685f7efb47578dd132c5e807222c7a83979725fcff38",
+      "bytes": 3642
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/puzzle/test/app.spec.js",
+      "git_blob": "49af2eccf6254d1600a07b5a5be1fcce570b38b4",
+      "sha256": "c17168c9a4af38e97b8d296b3ec37ec9cbfa80852328b974ad0bf90b50756f41",
+      "bytes": 1358
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/puzzle/test/logic.test.js",
+      "git_blob": "e3d98d90e69eacb05df5ab5bbbcbce21cc83f4ac",
+      "sha256": "06e23475f13da25bb4d1b171f1a0e4cdc2ef0a53a2c41fcad8fc07b79a372376",
+      "bytes": 4935
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/puzzle/ui.js",
+      "git_blob": "8c36ba9d53bf06f083762b3b25ebb797ad7b15ae",
+      "sha256": "93b005e3535f5f3945b79652839b237d84e260fc4cb90b4364ab6d7555df4ac4",
+      "bytes": 2219
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/BOUNTIES.md",
+      "git_blob": "beab5b7012cd42b44fb4f878b8cef4b2be75c995",
+      "sha256": "c15a014ab43449fdfea07cd1532636c347dce96e25ee18202c5e4178ca52b7f6",
+      "bytes": 3744
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/index.html",
+      "git_blob": "7c29a090fc259cfe4c56e00d83fafe792628a123",
+      "sha256": "3015a722468365178530c4a9ab46c8036213e20b0594444d9ec4a10d71657fe0",
+      "bytes": 3264
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/logic.js",
+      "git_blob": "58f1d6390766676c1500fc92b6a2a836e129e6e3",
+      "sha256": "35af190e65247e0f050606ff3035b8ec06f91586b169227a89bc521c963d0e56",
+      "bytes": 3086
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/samples/alpine-climb.gpx",
+      "git_blob": "edec4d35b6f74cddecbce933af23114b9389c4b0",
+      "sha256": "d2d984fe2980edf6b5a3c1d26e6e103dd9296c2286f85160a108cab8c6a10609",
+      "bytes": 15634
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/samples/riverside-loop.gpx",
+      "git_blob": "ffb7a33eefc94370ec03081dc2c28d4e3b4aeaf3",
+      "sha256": "cde82a65729b333c0b9f273330cc2e7271cc894d0f8a5834c79d4fc37f03f8a6",
+      "bytes": 20994
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/test/app.spec.js",
+      "git_blob": "9ec62f777e55b49fc9589d7364d923fb04a4517e",
+      "sha256": "b34d392f63a25f3d46376784053c6ef8d405107af60392fcf0ddfcd47f9de9e6",
+      "bytes": 1618
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/test/logic.test.js",
+      "git_blob": "620d23ddf27597e9e7aa097d92ee2b6f44dd108e",
+      "sha256": "161692e3a7beca08803b12256ca03a88759d2501fc78f01a15574faff5187e7d",
+      "bytes": 3940
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "apps/routes/ui.js",
+      "git_blob": "18e5bee8f67a5bf40d6e76b5c603dc49e93aa20d",
+      "sha256": "333fb521f1e021eb119dd4a4da965704d4a26594b668e985778e41528f77f045",
+      "bytes": 2495
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "check.mjs",
+      "git_blob": "d7c594c84e9c12d226cf85fb8add5d472bbff9a8",
+      "sha256": "5c7e70e9db42d0c498f88581ecddfae166c88c775ce71284cce07456a1923d8e",
+      "bytes": 3111
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "compose.yaml",
+      "git_blob": "6eeeb633bfb2e8ab621db173a0fe3db31b2f5c94",
+      "sha256": "2c480eb7732fd6e5041cef3adb04e2eb17c2d0ed902b67651ee6d3fff44a370f",
+      "bytes": 61
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "index.html",
+      "git_blob": "8e2cec83df3f57ca01bda59ae40fb8f43c245a02",
+      "sha256": "9a8ff873f2e70e0046501b6f8f49e38107efff30d18828b736bd7d4a73e64d81",
+      "bytes": 1009
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "package-lock.json",
+      "git_blob": "1eb06d95a187336b9ace34fa2bb6f17e02fe5297",
+      "sha256": "f7b2fc2c430f2572ab042fdd99f23a9832f8555eae9554a981c7853f57a4f67f",
+      "bytes": 2603
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "package.json",
+      "git_blob": "227a80951deff27bab318cc3f7e52a53b9331c9a",
+      "sha256": "4f06d60e2116e1e2445e5ccf1bc66ee2a10583ce1e209cf36851f850c4e7f18b",
+      "bytes": 413
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "playwright.config.js",
+      "git_blob": "2c287e38b1b97d07de3ff08cb6af5b32c104a46c",
+      "sha256": "825bf96e66937360f1ee9152b6b4a39f550f0804cdb1b963b5d05260d782f507",
+      "bytes": 364
+    },
+    {
+      "label": "base",
+      "commit": "5c76d40e77db1f4864dabd4b9398d02589cff330",
+      "path": "serve.mjs",
+      "git_blob": "7c96edba15358466aec53f48a29855a7b9406c8b",
+      "sha256": "a626ab2383712801567719e6cc4c1d1094e1e0e30e60849c86d50b5a78cb1ecb",
+      "bytes": 846
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": ".dockerignore",
+      "git_blob": "494161b77763739d35acda9a1573cf8a643837ea",
+      "sha256": "5dfaa644c65020405a1e37d5c209e328e1c07d90887973487ea23d78ed452684",
+      "bytes": 49
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": ".github/ISSUE_TEMPLATE/bounty.md",
+      "git_blob": "edff9a5ae23cd4007854a7b7bf445ccb597aa2f6",
+      "sha256": "9cf9e9af030e7fc8b95d19a6fb52944643b64abdbb66cf3b40a6ec41bf1f0af8",
+      "bytes": 279
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": ".gitignore",
+      "git_blob": "ddb8e9427f259246eb3652acb0c12113f332e681",
+      "sha256": "058f05121a667be3ea77e91b949e99b163b227357a657d723db474eecda10b44",
+      "bytes": 66
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "Dockerfile",
+      "git_blob": "d064b6d0e45ee7dcfcf9da5f4b14a53a49609cf4",
+      "sha256": "71ece3562a5366e9a3b6b055bec8c62a6157db82e0ba44415b6b1cb289aaf44e",
+      "bytes": 160
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "README.md",
+      "git_blob": "af980fd7f2947c2d02a5571ec1c77065a36df621",
+      "sha256": "20869fe9a4fa4c0af80bc172599334494c7d3b4ad39b9b6fe3119fd95b7ed289",
+      "bytes": 1096
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/BOUNTIES.md",
+      "git_blob": "c4fc1306cf3192af3c61100aad0ae84e255640ba",
+      "sha256": "e1b4efb48544de71b0c62b630badb588cd7f7b609e2211ae43de42a18bb678da",
+      "bytes": 4068
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/index.html",
+      "git_blob": "0da83b64ed722c90c014cc9fb08bfc20af3af4d9",
+      "sha256": "973e799f102d7ceb4cc6410ff635cacf53db0e0109dcfb9a3ecd0dc71ee061de",
+      "bytes": 3093
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/logic.js",
+      "git_blob": "dad14909df81096353976d353bbf1e8df276dea8",
+      "sha256": "299066bb9eed04f9a85f3dc72eac7a23a5488674d7315c8e4ca6a8d6bee8e746",
+      "bytes": 3511
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/test/app.spec.js",
+      "git_blob": "af078adc65033f6b42cd13840d6ade8ebf368432",
+      "sha256": "31a98d86ee00418520c1cca966b2751b9f7c0e1220247cdc5079f18c66e993e3",
+      "bytes": 1393
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/test/logic.test.js",
+      "git_blob": "be0fc8e1db49d10a6f5bd0d03cb17fe41e48b02c",
+      "sha256": "a5aca81bfdc05bbd594e77902a8ea253ddbc49b4b0c93e3d9c683aeb09245ad6",
+      "bytes": 5906
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/test/search-contract.test.js",
+      "git_blob": "88131644d0d9a51731fe2dc7cbc36693630173d9",
+      "sha256": "2b6477768b55c3da3c082cff3062b138478c65db05463a1e4f2b12c51e9698fa",
+      "bytes": 2120
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/test/search-view.spec.js",
+      "git_blob": "42c907cee4414bcd583363ea552d6bbe821aa68d",
+      "sha256": "46ab9792a40ac9157c39eb6d42082afeb3f0d8d0064597c66d6eb0b6cd57e771",
+      "bytes": 4389
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/test/search-whitespace.test.js",
+      "git_blob": "5cec688f1eec90db4c9d007dbd446f28faa42658",
+      "sha256": "4120ce9ad9aa3cb343b44906ff91fa8f590d50263d49edf6c0fc87b57be8103b",
+      "bytes": 2897
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/board/ui.js",
+      "git_blob": "c4fb3c23b0c8ce48d9651fcd00cbaddd312bccf0",
+      "sha256": "d8a1e2cc5a9ed97abcc653aa378995b06e71fdf944dcd592ab8b676dc59f938a",
+      "bytes": 4883
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/flight/BOUNTIES.md",
+      "git_blob": "be3d421017d0f2607985afb93415df943399f62e",
+      "sha256": "ebe7f4bb9fe2bef9cd04efdaffe95574c37a9dbf0262700c3f582c9d292078f9",
+      "bytes": 3632
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/flight/index.html",
+      "git_blob": "1c8a713e7b7f670e0e09b6b0aa5d9ba758293ff3",
+      "sha256": "a9f5fabc286a611d8a2961cfaa61a42bfb648aad9545e0a39decaedef2604c86",
+      "bytes": 2859
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/flight/logic.js",
+      "git_blob": "ade7ae8216d786dd32421631bca790052fc29695",
+      "sha256": "0eb506c51d5bd040ec8e0f9e20d2818a739047b1c48d90ed38536c4ced1ceec9",
+      "bytes": 3911
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/flight/test/app.spec.js",
+      "git_blob": "8d4e2bea42ced03929c49b9b5bfd9486b683eb7f",
+      "sha256": "f6e59d2ba60f1c180fe0c24c73c05bef7f8335e4d026de3f89c1449aa44200b2",
+      "bytes": 1178
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/flight/test/logic.test.js",
+      "git_blob": "d0ad8a6b3d38ab139b0b5148aaf2645dee664e2d",
+      "sha256": "e673d7d16ba1b46f1e6db33337ca9adde0303884220c9493991b0868be66424f",
+      "bytes": 4999
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/flight/ui.js",
+      "git_blob": "13eddd13ca5b5ff76b10892f293945df97adcba7",
+      "sha256": "c3656adbd27a047e2958f7f7396c82663ab4bc78387b35ce86e4846db455935d",
+      "bytes": 4518
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/puzzle/BOUNTIES.md",
+      "git_blob": "c7bc2d5223da92b4749b07cc3a1b1d4a1ad44c7e",
+      "sha256": "579fc3902baf0c51460cc43bb832697d382f5e1faf422947fa2b308692c4c73b",
+      "bytes": 3847
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/puzzle/index.html",
+      "git_blob": "636c2ed635614670515730bb040d4ce50a5279a8",
+      "sha256": "348db6e0580265cdbdfb0384c2c01c72ffe59e6a7bbba10d10795c6c2799a925",
+      "bytes": 3158
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/puzzle/levels.json",
+      "git_blob": "4772e02e3228e66e9e434f88e71e959a58bce468",
+      "sha256": "9b6a40b204214039527eba5207a0ddb8ab6e67e213790637e217aa6f935637bb",
+      "bytes": 766
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/puzzle/logic.js",
+      "git_blob": "1fdd5d27d5b86c38cf6e24527868862805b6fa8d",
+      "sha256": "8f9ace43bf581efd5b26685f7efb47578dd132c5e807222c7a83979725fcff38",
+      "bytes": 3642
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/puzzle/test/app.spec.js",
+      "git_blob": "49af2eccf6254d1600a07b5a5be1fcce570b38b4",
+      "sha256": "c17168c9a4af38e97b8d296b3ec37ec9cbfa80852328b974ad0bf90b50756f41",
+      "bytes": 1358
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/puzzle/test/logic.test.js",
+      "git_blob": "e3d98d90e69eacb05df5ab5bbbcbce21cc83f4ac",
+      "sha256": "06e23475f13da25bb4d1b171f1a0e4cdc2ef0a53a2c41fcad8fc07b79a372376",
+      "bytes": 4935
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/puzzle/ui.js",
+      "git_blob": "8c36ba9d53bf06f083762b3b25ebb797ad7b15ae",
+      "sha256": "93b005e3535f5f3945b79652839b237d84e260fc4cb90b4364ab6d7555df4ac4",
+      "bytes": 2219
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/BOUNTIES.md",
+      "git_blob": "beab5b7012cd42b44fb4f878b8cef4b2be75c995",
+      "sha256": "c15a014ab43449fdfea07cd1532636c347dce96e25ee18202c5e4178ca52b7f6",
+      "bytes": 3744
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/index.html",
+      "git_blob": "7c29a090fc259cfe4c56e00d83fafe792628a123",
+      "sha256": "3015a722468365178530c4a9ab46c8036213e20b0594444d9ec4a10d71657fe0",
+      "bytes": 3264
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/logic.js",
+      "git_blob": "58f1d6390766676c1500fc92b6a2a836e129e6e3",
+      "sha256": "35af190e65247e0f050606ff3035b8ec06f91586b169227a89bc521c963d0e56",
+      "bytes": 3086
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/samples/alpine-climb.gpx",
+      "git_blob": "edec4d35b6f74cddecbce933af23114b9389c4b0",
+      "sha256": "d2d984fe2980edf6b5a3c1d26e6e103dd9296c2286f85160a108cab8c6a10609",
+      "bytes": 15634
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/samples/riverside-loop.gpx",
+      "git_blob": "ffb7a33eefc94370ec03081dc2c28d4e3b4aeaf3",
+      "sha256": "cde82a65729b333c0b9f273330cc2e7271cc894d0f8a5834c79d4fc37f03f8a6",
+      "bytes": 20994
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/test/app.spec.js",
+      "git_blob": "9ec62f777e55b49fc9589d7364d923fb04a4517e",
+      "sha256": "b34d392f63a25f3d46376784053c6ef8d405107af60392fcf0ddfcd47f9de9e6",
+      "bytes": 1618
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/test/logic.test.js",
+      "git_blob": "620d23ddf27597e9e7aa097d92ee2b6f44dd108e",
+      "sha256": "161692e3a7beca08803b12256ca03a88759d2501fc78f01a15574faff5187e7d",
+      "bytes": 3940
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "apps/routes/ui.js",
+      "git_blob": "18e5bee8f67a5bf40d6e76b5c603dc49e93aa20d",
+      "sha256": "333fb521f1e021eb119dd4a4da965704d4a26594b668e985778e41528f77f045",
+      "bytes": 2495
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "check.mjs",
+      "git_blob": "d7c594c84e9c12d226cf85fb8add5d472bbff9a8",
+      "sha256": "5c7e70e9db42d0c498f88581ecddfae166c88c775ce71284cce07456a1923d8e",
+      "bytes": 3111
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "compose.yaml",
+      "git_blob": "6eeeb633bfb2e8ab621db173a0fe3db31b2f5c94",
+      "sha256": "2c480eb7732fd6e5041cef3adb04e2eb17c2d0ed902b67651ee6d3fff44a370f",
+      "bytes": 61
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "index.html",
+      "git_blob": "8e2cec83df3f57ca01bda59ae40fb8f43c245a02",
+      "sha256": "9a8ff873f2e70e0046501b6f8f49e38107efff30d18828b736bd7d4a73e64d81",
+      "bytes": 1009
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "package-lock.json",
+      "git_blob": "1eb06d95a187336b9ace34fa2bb6f17e02fe5297",
+      "sha256": "f7b2fc2c430f2572ab042fdd99f23a9832f8555eae9554a981c7853f57a4f67f",
+      "bytes": 2603
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "package.json",
+      "git_blob": "227a80951deff27bab318cc3f7e52a53b9331c9a",
+      "sha256": "4f06d60e2116e1e2445e5ccf1bc66ee2a10583ce1e209cf36851f850c4e7f18b",
+      "bytes": 413
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "playwright.config.js",
+      "git_blob": "2c287e38b1b97d07de3ff08cb6af5b32c104a46c",
+      "sha256": "825bf96e66937360f1ee9152b6b4a39f550f0804cdb1b963b5d05260d782f507",
+      "bytes": 364
+    },
+    {
+      "label": "candidate",
+      "commit": "12578a60a36c90b12f849c6003caaa2eb08fbf60",
+      "path": "serve.mjs",
+      "git_blob": "7c96edba15358466aec53f48a29855a7b9406c8b",
+      "sha256": "a626ab2383712801567719e6cc4c1d1094e1e0e30e60849c86d50b5a78cb1ecb",
+      "bytes": 846
+    }
+  ],
+  "checker_files": [
+    {
+      "path": "check.mjs",
+      "commit": "82323836a672b799ac8f9f74265498f97438cd02",
+      "git_blob": "650af95f149093dd13d3b3ae5b86dfdcefbda1af",
+      "sha256": "90c2c4f7ed1cd7825e9e001d9bc2524b5eab140e8c80c0e172539c9265201b49",
+      "bytes": 3108
+    },
+    {
+      "path": "Dockerfile",
+      "commit": "82323836a672b799ac8f9f74265498f97438cd02",
+      "git_blob": "e2a5530cb6c0582ebd08634f0f0659d60fc65978",
+      "sha256": "025f176d862b0efda36611878fe5fb1aefa770cc20be0caf1cddbfb65f546198",
+      "bytes": 213
+    },
+    {
+      "path": "README.md",
+      "commit": "82323836a672b799ac8f9f74265498f97438cd02",
+      "git_blob": "af980fd7f2947c2d02a5571ec1c77065a36df621",
+      "sha256": "20869fe9a4fa4c0af80bc172599334494c7d3b4ad39b9b6fe3119fd95b7ed289",
+      "bytes": 1096
+    },
+    {
+      "path": "apps/board/BOUNTIES.md",
+      "commit": "82323836a672b799ac8f9f74265498f97438cd02",
+      "git_blob": "92854af2d38ab40204786d399658e8d393f478d8",
+      "sha256": "1ecdeaf61438330843ba521fa1519c06aed07d32f84faa64b6588628044e92f7",
+      "bytes": 4703
+    },
+    {
+      "path": "bounties/board-search/check.yml",
+      "commit": "82323836a672b799ac8f9f74265498f97438cd02",
+      "git_blob": "e46e651ed390700423b284c635c8c146ed78081c",
+      "sha256": "ecb430886ff4be0cf9ad00f0a948106b75c0838d8d72d8f1810aab7be435305c",
+      "bytes": 1696
+    },
+    {
+      "path": "bounties/board-search/search.test.js",
+      "commit": "82323836a672b799ac8f9f74265498f97438cd02",
+      "git_blob": "e2a31cf58d1a485701281211f398014b42275b3a",
+      "sha256": "69982fc887d2a955386b0fa9cb6d62ea820ac6f2a312075c5fee78a6b5177644",
+      "bytes": 845
+    },
+    {
+      "path": "bounties/board-search/search.spec.js",
+      "commit": "82323836a672b799ac8f9f74265498f97438cd02",
+      "git_blob": "6d83a39c9dc663bda6c3f09ec766571888c3d048",
+      "sha256": "5dcae471de4de0ef418eb87a9b9b60e4d9eea148f5712dc6e10d40f89f4f4964",
+      "bytes": 1120
+    }
+  ],
+  "issuer_archive_sha256": "ee21e40f2671053d2e5911ce200756af9cec6d7a93ecb3a02786ec0cd22f7919",
+  "issuer_archive_bytes": 917063,
+  "issuer_report": "https://pod.dstack.soc1024.com/artifact-reports-2026c/pr42-judge2-reproduction--XxozwN1Muwnr9O_qvHzueQ/",
+  "original_local_image": "sha256:ab6c1ad3d428df4d8833aa04bdf9ef67e61eef8d84be8b30f7d9fd8afa026171",
+  "issuer_suite_files": [
+    {
+      "path": "suite/search.test.js",
+      "bytes": 1254,
+      "sha256": "83c8120a8d4b2212bdb092eb0905e277af97998156442a221a428ca0c73e3164"
+    },
+    {
+      "path": "suite/search.spec.js",
+      "bytes": 10422,
+      "sha256": "c5e11195c1a0258cf576d5335969b0eedb947350de8d63e4b15d693bcb2212f7"
+    }
+  ]
+}
